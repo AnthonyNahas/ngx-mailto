@@ -20,7 +20,8 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
     const mailto: Mailto = {
       cc: [],
-      subject: 'Just only a test!'
+      subject: 'Just only a test!',
+      body: 'this is the body of the email!'
     };
     console.log(this.mailtoService.compose(mailto));
   }
