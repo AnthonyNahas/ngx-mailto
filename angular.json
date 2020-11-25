@@ -125,7 +125,50 @@
           }
         }
       }
+    },
+    "ngx-mailto": {
+      "projectType": "library",
+      "root": "projects/ngx-mailto",
+      "sourceRoot": "projects/ngx-mailto/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ngx-mailto/tsconfig.lib.json",
+            "project": "projects/ngx-mailto/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-mailto/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-mailto/src/test.ts",
+            "tsConfig": "projects/ngx-mailto/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-mailto/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-mailto/tsconfig.lib.json",
+              "projects/ngx-mailto/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
-  "defaultProject": "ngx-mailto-demo"
+  "defaultProject": "ngx-mailto-demo",
+  "cli": {
+    "analytics": "ea3f6664-7a5f-4480-9efa-1f3058c7c180"
+  }
 }
