@@ -3,10 +3,10 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
 import { MatChipInputEvent } from '@angular/material/chips';
+import { Mailto, NgxMailtoService } from 'ngx-mailto';
 import { Observable } from 'rxjs';
 import { map, startWith } from 'rxjs/operators';
-import { Mailto } from '../ngx-mailto/mailto';
-import { NgxMailtoService } from '../ngx-mailto/ngx-mailto.service';
+
 
 @Component({
   selector: 'app-root',

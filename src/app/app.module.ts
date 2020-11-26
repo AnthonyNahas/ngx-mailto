@@ -9,8 +9,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxMailtoModule } from 'ngx-mailto';
 import { MarkdownModule } from 'ngx-markdown';
-import { NgxMailtoModule } from '../ngx-mailto/ngx-mailto.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
