@@ -1,11 +1,84 @@
 {
   "name": "ngx-mailto",
   "version": "0.0.1",
+  "homepage": "https://anhtonynahas.github.io/ngx-mailto/",
+  "author": {
+    "name": "anthonynahas",
+    "url": "https://github.com/anthonynahas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonynahas/ngx-mailto.git"
+  },
+  "license": "MIT",
+  "schematics": "./schematics/collection.json",
+  "keywords": [
+    "ng",
+    "library",
+    "angular",
+    "material",
+    "material design",
+    "ssr",
+    "select icon",
+    "icon picker",
+    "icon button",
+    "image button"
+  ],
+  "bugs": {
+    "url": "https://github.com/anthonynahas/ngx-mailto/issues"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/ng build ngx-mailto --prod",
+    "build:schematics": "../../node_modules/.bin/tsc -p tsconfig.schematics.json",
+    "clean": "rm -rf ../../dist",
+    "lint": "../../node_modules/.bin/ng lint ngx-mailto",
+    "resync:schematics": "rsync -a schematics/collection.json ../../dist/ngx-mailto/schematics/",
+    "resync:readme": "rsync -a ../../README.md ../../dist/ngx-mailto/",
+    "postbuild": "npm run build:schematics && npm run resync:readme && npm run resync:schematics",
+    "prepublish": "npm run build",
+    "release:patch": "../../node_modules/.bin/release-it --patch --ci ",
+    "release:minor": "../../node_modules/.bin/release-it --minor --ci",
+    "release:major": "../../node_modules/.bin/release-it --major --ci --no-git.requireCleanWorkingDir",
+    "release:version": "../../node_modules/.bin/release-it 1.0.0 --ci --no-git.requireCleanWorkingDir",
+    "ng:test": "../../node_modules/.bin/ng test ngx-mailto",
+    "test": "../../node_modules/.bin/jest --coverage",
+    "test:watch": "../../node_modules/.bin/jest --coverage --watch"
+  },
   "peerDependencies": {
     "@angular/common": "^11.0.1",
     "@angular/core": "^11.0.1"
   },
   "dependencies": {
     "tslib": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=10.13"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": true,
+      "publishPath": "../../dist/ngx-mailto"
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "preset": "angular",
+        "infile": "../../CHANGELOG.md"
+      }
+    },
+    "hooks": {
+      "before:init": [
+        "npm run clean"
+      ],
+      "after:bump": "echo \"building lib v${version}... \" && npm run build",
+      "before:git:release": "echo \"Updating CHANGELOG.md for v${version} \" && git commit -m \"Updating CHANGELOG.md for v${version} \" ../../CHANGELOG.md",
+      "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}.",
+      "before:npm": "echo building the library..."
+    }
   }
 }
