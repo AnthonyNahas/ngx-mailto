@@ -1,7 +1,7 @@
 <p align="center">
   <img alt="angular-material-extensions's logo"
    height="256px" width="256px" style="text-align: center;" 
-   src="https://cdn.jsdelivr.net/gh/angular-material-extensions/ngx-mailto@master/assets/angular-material-extensions-logo.svg">
+   src="https://cdn.jsdelivr.net/gh/anthonynahas/ngx-mailto@master/assets/angular-material-extensions-logo.svg">
 </p>
 
 # ngx-mailto - Angular library simplifying generation of mailto links with Typescript
@@ -207,7 +207,7 @@ $ npm start
 
 ---
 
-![jetbrains logo](https://raw.githubusercontent.com/angular-material-extensions/ngx-mailto/HEAD/assets/jetbrains-variant-4_logos/jetbrains-variant-4.png)
+![jetbrains logo](https://raw.githubusercontent.com/anthonynahas/ngx-mailto/HEAD/assets/jetbrains-variant-4_logos/jetbrains-variant-4.png)
 
 This project is supported by [jetbrains](https://www.jetbrains.com/) with 1 ALL PRODUCTS PACK OS LICENSE incl. [webstorm](https://www.jetbrains.com/webstorm)
 
