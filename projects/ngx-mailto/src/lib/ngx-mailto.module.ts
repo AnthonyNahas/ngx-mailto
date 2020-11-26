@@ -1,12 +1,16 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { NgxMailtoComponent } from './ngx-mailto.component';
-
+import { NgxMailtoPipe } from './ngx-mailto.pipe';
 
 
 @NgModule({
-  declarations: [NgxMailtoComponent],
-  imports: [
+  declarations: [NgxMailtoPipe],
+  exports: [
+    NgxMailtoPipe
   ],
-  exports: [NgxMailtoComponent]
+  imports: [
+    CommonModule
+  ]
 })
-export class NgxMailtoModule { }
+export class NgxMailtoModule {
+}
