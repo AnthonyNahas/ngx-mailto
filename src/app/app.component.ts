@@ -16,7 +16,6 @@ import { map, startWith } from 'rxjs/operators';
 export class AppComponent implements OnInit {
   title = 'ngx-mailto-demo';
 
-  visible = true;
   selectable = true;
   removable = true;
   separatorKeysCodes: number[] = [ENTER, COMMA];
