@@ -6,6 +6,8 @@
     "start": "ng serve",
     "start:hmr": "ng serve --hmr",
     "build": "ng build",
+    "build:docs": "npx compodoc -p projects/ngx-mailto/tsconfig.lib.json --hideGenerator --disableCoverage -d dist/browser/doc/",
+    "deploy": "ng deploy --no-build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -13,6 +15,7 @@
     "serve:ssr": "node dist/ngx-mailto-demo/server/main.js",
     "build:ssr": "ng build --prod && ng run ngx-mailto-demo:server:production",
     "prerender": "ng run ngx-mailto-demo:prerender",
+    "prerender:ghpages": "ng run ngx-mailto-demo:prerender_ghpages",
     "postinstall": "ngcc"
   },
   "private": true,
