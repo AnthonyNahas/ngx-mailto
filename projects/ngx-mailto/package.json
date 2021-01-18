@@ -1,6 +1,6 @@
 {
   "name": "ngx-mailto",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Angular library simplifying generation of mailto links with TS",
   "homepage": "https://anthonynahas.github.io/ngx-mailto/",
   "author": {
@@ -40,7 +40,7 @@
     "release:patch": "../../node_modules/.bin/release-it --patch --ci ",
     "release:minor": "../../node_modules/.bin/release-it --minor --ci",
     "release:major": "../../node_modules/.bin/release-it --major --ci --no-git.requireCleanWorkingDir",
-    "release:version": "../../node_modules/.bin/release-it 1.0.2 --ci --no-git.requireCleanWorkingDir",
+    "release:version": "../../node_modules/.bin/release-it 1.0.3 --ci --no-git.requireCleanWorkingDir",
     "ng:test": "../../node_modules/.bin/ng test ngx-mailto",
     "test": "../../node_modules/.bin/jest --coverage",
     "test:watch": "../../node_modules/.bin/jest --coverage --watch"
