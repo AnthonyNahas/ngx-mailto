@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/anthonynahas/ngx-mailto/compare/1.0.4...1.0.5) (2021-04-20)
+
+
+### Bug Fixes
+
+* **lib:** updated the dependencies ([8fa9f89](https://github.com/anthonynahas/ngx-mailto/commit/8fa9f896bd68469c63335f60b01398990faec5e7))
+
 ## [1.0.4](https://github.com/anthonynahas/ngx-mailto/compare/1.0.3...1.0.4) (2021-04-15)
 
 
