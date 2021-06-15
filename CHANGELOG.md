@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/anthonynahas/ngx-mailto/compare/1.0.5...1.0.6) (2021-06-15)
+
+
+### Bug Fixes
+
+* **lib:** upgraded angular to v12 ([61d416f](https://github.com/anthonynahas/ngx-mailto/commit/61d416faf498378d00953ec0bb1736232980401f))
+
 ## [1.0.5](https://github.com/anthonynahas/ngx-mailto/compare/1.0.4...1.0.5) (2021-04-20)
 
 
