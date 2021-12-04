@@ -1,3 +1,13 @@
+# [1.1.0](https://github.com/anthonynahas/ngx-mailto/compare/1.0.6...1.1.0) (2021-12-04)
+
+
+### Bug Fixes
+
+* **lib:** updated the dependencies ([e6759a9](https://github.com/anthonynahas/ngx-mailto/commit/e6759a9596fd2ded44e538a683e0dabb080ae049))
+* **lib:** updated the dependencies ([0afa3f8](https://github.com/anthonynahas/ngx-mailto/commit/0afa3f8cf4aa818a602b4b0b366454cec89fd548))
+* **project:** upgraded angular to the latest version ([d308b85](https://github.com/anthonynahas/ngx-mailto/commit/d308b857e30180c7adef995ae0cf52b0a95addcc))
+* **project:** upgraded angular to the latest version ([e954cc6](https://github.com/anthonynahas/ngx-mailto/commit/e954cc68f1a4bca2c7a856edfce272cc39b779ed))
+
 ## [1.0.6](https://github.com/anthonynahas/ngx-mailto/compare/1.0.5...1.0.6) (2021-06-15)
 
 
