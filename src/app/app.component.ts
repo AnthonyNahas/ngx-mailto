@@ -1,6 +1,6 @@
 import { COMMA, ENTER } from '@angular/cdk/keycodes';
 import { Component, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
 import { MatChipInputEvent } from '@angular/material/chips';
 import { Mailto, NgxMailtoService } from 'ngx-mailto';
@@ -19,9 +19,9 @@ export class AppComponent implements OnInit {
   selectable = true;
   removable = true;
   separatorKeysCodes: number[] = [ENTER, COMMA];
-  receiverCtrl = new FormControl();
-  ccCtrl = new FormControl();
-  bccCtrl = new FormControl();
+  receiverCtrl = new UntypedFormControl();
+  ccCtrl = new UntypedFormControl();
+  bccCtrl = new UntypedFormControl();
   filteredEmails: Observable<string[]>;
   emails: string[] = ['your_email@domain.de'];
   cc: string[] = [];
@@ -49,7 +49,7 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  add(event: MatChipInputEvent, list: string[], fc: FormControl): void {
+  add(event: MatChipInputEvent, list: string[], fc: UntypedFormControl): void {
     const input = event.input;
     const value = event.value;
 
@@ -75,7 +75,7 @@ export class AppComponent implements OnInit {
     }
   }
 
-  selected(event: MatAutocompleteSelectedEvent, list: string[], fc: FormControl): void {
+  selected(event: MatAutocompleteSelectedEvent, list: string[], fc: UntypedFormControl): void {
     list.push(event.option.viewValue);
     fc.setValue(null);
   }

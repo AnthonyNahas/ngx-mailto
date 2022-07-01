@@ -282,7 +282,6 @@
       }
     }
   },
-  "defaultProject": "ngx-mailto-demo",
   "cli": {
     "analytics": "ea3f6664-7a5f-4480-9efa-1f3058c7c180"
   }
