@@ -29,7 +29,7 @@
     "url": "https://github.com/anthonynahas/ngx-mailto/issues"
   },
   "scripts": {
-    "build": "../../node_modules/.bin/ng build ngx-mailto --prod",
+    "build": "../../node_modules/.bin/ng build ngx-mailto --configuration=production",
     "build:schematics": "../../node_modules/.bin/tsc -p tsconfig.schematics.json",
     "clean": "rm -rf ../../dist",
     "lint": "../../node_modules/.bin/ng lint ngx-mailto",

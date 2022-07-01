@@ -56,7 +56,7 @@ View all the directives and components in action at [https://anthonynahas.github
 <a name="dependencies"/>
 
 ## Dependencies
-* [Angular](https://angular.io) developed and tested with `11.x`
+* [Angular](https://angular.io) developed and tested with `14.x`
 
 ---
 
