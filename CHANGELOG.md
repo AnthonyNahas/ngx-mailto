@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/anthonynahas/ngx-mailto/compare/1.1.0...2.0.0) (2022-07-01)
+
+
+### Bug Fixes
+
+* **project:** updated reamde ([6d525ea](https://github.com/anthonynahas/ngx-mailto/commit/6d525ea04d073f39aec824be17f4b98cd572a1ad))
+* **project:** updated the README.md ([316e525](https://github.com/anthonynahas/ngx-mailto/commit/316e525f4a11e4fa16052a7d5680b7f3d3def195))
+* **project:** upgraded angular material ([5f4c670](https://github.com/anthonynahas/ngx-mailto/commit/5f4c67042aeff0fdf2e60bee72649baa8f87d288))
+* **project:** upgraded angular to the latest version ([a573ffc](https://github.com/anthonynahas/ngx-mailto/commit/a573ffc72532ee3045e6120e6b068c42a1911281))
+* **project:** upgraded angular universal ([65f5039](https://github.com/anthonynahas/ngx-mailto/commit/65f50391b08489bf39af0298e7ed122a05964cc9))
+* **project:** upgraded angular universal ([84b1cbb](https://github.com/anthonynahas/ngx-mailto/commit/84b1cbb84530c5e92bc76649227ff6561798e810))
+* **project:** upgreaded angular to v12 ([f96ac18](https://github.com/anthonynahas/ngx-mailto/commit/f96ac18d0d806413bc9f33e0e5048f931e1aaa74))
+
 # [1.1.0](https://github.com/anthonynahas/ngx-mailto/compare/1.0.6...1.1.0) (2021-12-04)
 
 
