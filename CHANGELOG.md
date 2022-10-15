@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/anthonynahas/ngx-mailto/compare/2.0.0...2.0.1) (2022-10-15)
+
+
+### Bug Fixes
+
+* **project:** minor ([6249bc0](https://github.com/anthonynahas/ngx-mailto/commit/6249bc065c5c03ba890660570876340d1e32f400))
+* **project:** upgraded angular and material ([50811aa](https://github.com/anthonynahas/ngx-mailto/commit/50811aa1bcf056740b10ed1ac1cfaef86156c440))
+* **project:** upgraded angular and material ([7b34e5d](https://github.com/anthonynahas/ngx-mailto/commit/7b34e5dd0ed0cf489bbcbe4bf8cf1c27ac84d802))
+
 # [2.0.0](https://github.com/anthonynahas/ngx-mailto/compare/1.1.0...2.0.0) (2022-07-01)
 
 
