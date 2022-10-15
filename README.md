@@ -29,7 +29,7 @@ to -->
 
 ## Built by and for developers :heart:
 Do you have any question or suggestion ? Please do not hesitate to contact us!
-Alternatively, provide a PR | open an appropriate issue [here](https://github.com/angular-material-extensions/ngx-mailto/issues)
+Alternatively, provide a PR | open an appropriate issue [here](https://github.com/AnthonyNahas/ngx-mailto/issues)
 
 If you like this project, support [angular-material-extensions](https://github.com/angular-material-extensions) 
 by starring :star: and sharing it :loudspeaker:
@@ -204,6 +204,15 @@ $ npm start
 + let us chat on [Gitter](https://gitter.im/angular-material-extensions/Lobby)
  
  Built by and for developers :heart: we will help you :punch:
+
+---
+
+## Who is using ngx-mailto? Awesome apps?
+
+1. [Nahaus.de](https://nahaus.de)
+
+
+Are you missing your project or you app? PR me to publish it on the README
 
 ---
 
