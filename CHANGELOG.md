@@ -1,3 +1,15 @@
+
+
+# [3.0.0](https://github.com/anthonynahas/ngx-mailto/compare/2.0.1...3.0.0) (2023-02-21)
+
+
+### Bug Fixes
+
+* **project:** minor ([c0b8550](https://github.com/anthonynahas/ngx-mailto/commit/c0b85500df2c377e3c1622c62d83be3f8a8b788e))
+* **project:** upgraded angular to v15 ([88b06e0](https://github.com/anthonynahas/ngx-mailto/commit/88b06e0afb84c6b8a2d3cefec88f82a64d361112))
+* **project:** upgraded material to v15 ([f0bd98e](https://github.com/anthonynahas/ngx-mailto/commit/f0bd98eadaf7e91cd7c7bab32fddf7e3979afd70))
+* **project:** upgraded material to v15 ([ce0e946](https://github.com/anthonynahas/ngx-mailto/commit/ce0e946feebe794d7efc84d61739bd64eb58cca2))
+
 ## [2.0.1](https://github.com/anthonynahas/ngx-mailto/compare/2.0.0...2.0.1) (2022-10-15)
 
 
@@ -80,4 +92,3 @@
 * **demo:** added ngx-markdown package ([8b8f132](https://github.com/anthonynahas/ngx-mailto/commit/8b8f132acddb5a50bc55762b4963743f0689918a))
 * **project:** added angular universal support ([644588a](https://github.com/anthonynahas/ngx-mailto/commit/644588a623396bfbe2be900d7cc21f3a638e27d9))
 * **project:** generated the `ngx-mailto` library ([ceb3308](https://github.com/anthonynahas/ngx-mailto/commit/ceb3308dffb1cc63fd7d4301e2c2670132b55b6e))
-
