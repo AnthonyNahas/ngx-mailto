@@ -1,5 +1,12 @@
 
 
+## [3.0.1](https://github.com/anthonynahas/ngx-mailto/compare/3.0.0...3.0.1) (2023-02-21)
+
+
+### Bug Fixes
+
+* **project:** minor ([048eef9](https://github.com/anthonynahas/ngx-mailto/commit/048eef99dd25312c90e125775ddd0899897d1b62))
+
 # [3.0.0](https://github.com/anthonynahas/ngx-mailto/compare/2.0.1...3.0.0) (2023-02-21)
 
 
