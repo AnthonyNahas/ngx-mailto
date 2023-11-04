@@ -1,5 +1,15 @@
 
 
+# [16.0.0](https://github.com/anthonynahas/ngx-mailto/compare/3.0.1...16.0.0) (2023-11-04)
+
+
+### Bug Fixes
+
+* **project:** updated to angular flex layout ([a622cb8](https://github.com/anthonynahas/ngx-mailto/commit/a622cb87838f50bb4dce9543ba838946a7ac33e9))
+* **project:** updated to angular material ([5caead3](https://github.com/anthonynahas/ngx-mailto/commit/5caead33fddec600489dcae9c0af49cb790dbbd6))
+* **project:** updated to angular universal ([c511e5a](https://github.com/anthonynahas/ngx-mailto/commit/c511e5a7b9fd3258936700e17b1aae162444c83f))
+* **project:** updated to angular v16 ([8bc6c1e](https://github.com/anthonynahas/ngx-mailto/commit/8bc6c1e1d9f1bfce3bc915916f07690cf1b45230))
+
 ## [3.0.1](https://github.com/anthonynahas/ngx-mailto/compare/3.0.0...3.0.1) (2023-02-21)
 
 
