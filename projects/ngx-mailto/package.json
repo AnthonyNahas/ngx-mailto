@@ -1,6 +1,6 @@
 {
   "name": "ngx-mailto",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "description": "Angular library simplifying generation of mailto links with TS",
   "homepage": "https://anthonynahas.github.io/ngx-mailto/",
   "author": {
