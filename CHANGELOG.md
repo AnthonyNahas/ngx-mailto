@@ -1,5 +1,16 @@
 
 
+# [17.0.0](https://github.com/anthonynahas/ngx-mailto/compare/16.0.0...17.0.0) (2023-11-19)
+
+
+### Bug Fixes
+
+* **project:** upgraded angular material to v17 ([88d2832](https://github.com/anthonynahas/ngx-mailto/commit/88d2832e2235bfb874e3e26956cf14eed4717bf1))
+* **project:** upgraded angular material to v17 ([7b72271](https://github.com/anthonynahas/ngx-mailto/commit/7b7227111a76422a7baba7442e81359c1674f799))
+* **project:** upgraded angular to v17 ([e836039](https://github.com/anthonynahas/ngx-mailto/commit/e836039a888f6dc825ca3d3033f5ab4afd949081))
+* **project:** upgraded release it ([24fb953](https://github.com/anthonynahas/ngx-mailto/commit/24fb953cfbc53272b6ce7a4e005be7428016c8f9))
+* **project:** upgraded release it deps ([9723303](https://github.com/anthonynahas/ngx-mailto/commit/9723303465551e3130178fb66efdd8eca10b5002))
+
 # [16.0.0](https://github.com/anthonynahas/ngx-mailto/compare/3.0.1...16.0.0) (2023-11-04)
 
 
